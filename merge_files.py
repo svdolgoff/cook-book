@@ -1,6 +1,6 @@
 # Список файлов
-files = ['/Users/dolgoffsv/Desktop/netology/cook-book/merge/1.txt',
-         '/Users/dolgoffsv/Desktop/netology/cook-book/merge/2.txt']
+files = ['merge/1.txt',
+         'merge/2.txt']
 
 # Создаем списки для хранения информации
 names = []        # названия файлов
@@ -10,9 +10,9 @@ contents = []     # содержимое файлов
 # Читаем каждый файл
 for file_path in files:
     # Получаем имя файла
-    if file_path == '/Users/dolgoffsv/Desktop/netology/cook-book/merge/1.txt':
+    if file_path == 'merge/1.txt':
         name = '1.txt'
-    elif file_path == '/Users/dolgoffsv/Desktop/netology/cook-book/merge/2.txt':
+    elif file_path == 'merge/2.txt':
         name = '2.txt'
 
 
@@ -55,7 +55,7 @@ for i in range(len(counts)):
             contents[j] = temp
 
 # Создаем итоговый файл
-result = open('/Users/dolgoffsv/Desktop/netology/cook-book/merge/result_merge.txt', 'w', encoding='utf-8')
+result = open('merge/result_merge.txt', 'w', encoding='utf-8')
 
 # Записываем данные
 for i in range(len(names)):

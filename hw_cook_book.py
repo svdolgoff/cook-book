@@ -1,7 +1,7 @@
 # Задача №1
 cook_book = {}
 
-with open('recipes.txt', 'r', encoding='utf-8') as file:
+with open('recipes/recipes.txt', 'r', encoding='utf-8') as file:
     # Читаем все строки и убираем пустые
     lines = []
     for line in file:
@@ -49,7 +49,7 @@ print("}")
 # Задача №2
 cook_book = {}
 
-with open('recipes.txt', 'r', encoding='utf-8') as file:
+with open('recipes/recipes.txt', 'r', encoding='utf-8') as file:
     # Читаем все строки и убираем пустые
     lines = []
     for line in file:
