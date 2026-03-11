@@ -1,6 +1,17 @@
-# System files
-Thumbs.db
-.DS_Store
-.DS_Store
+# IDE directories
 .idea/
 .gigaide/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+EOF
